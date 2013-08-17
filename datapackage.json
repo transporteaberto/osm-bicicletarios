@@ -20,17 +20,17 @@
             {
               "id": "osm_id",
               "description": "id do objeto no OpenStreetMap",
-              "type": "string"
+              "type": "number"
             },
             {
               "id": "lon",
               "description": "longitude",
-              "type": "string"
+              "type": "number"
             },
             {
               "id": "lat",
               "description": "latitude",
-              "type": "string"
+              "type": "number"
             },
             {
               "id": "nome",
@@ -44,7 +44,7 @@
             },
             {
               "id": "tipo",
-              "description": "",
+              "description": "tipo de bicicletário, segundo wiki do OpenStreetMap",
               "type": "string"
             },
             {
