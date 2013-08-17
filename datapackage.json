@@ -12,7 +12,7 @@
   "resources": [
       {
         "name": "data",
-        "url": "https://raw.github.com/TransporteAberto/osm-bicicletarios/master/data.csv",
+        "path": "data/bicicletarios.csv",
         "format": "csv",
         "mediatype": "text/csv",
         "schema": {
