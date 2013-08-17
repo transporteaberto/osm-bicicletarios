@@ -31,6 +31,6 @@ then
 fi
 
 # CSV header
-echo "osm_id,lon,lat,nome,capacidade,tipo,cobertura,operador,taxa,período_máximo,vigilância,logradouro,número" > data.csv
+echo "osm_id,lon,lat,nome,capacidade,tipo,cobertura,operador,taxa,período_máximo,vigilância,logradouro,número" > data/bicicletarios.csv
 # CSV data
-./osmconvert tmp/bicicle-parking.osm --all-to-nodes --csv="@id @lon @lat name capacity bicycle_parking covered operator fee maxstay surveillance addr:streetname addr:number" --csv-separator=, >> data.csv
+./osmconvert tmp/bicicle-parking.osm --all-to-nodes --csv="@id @lon @lat name capacity bicycle_parking covered operator fee maxstay surveillance addr:streetname addr:number" --csv-separator=, >> data/bicicletarios.csv

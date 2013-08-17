@@ -1,4 +1,4 @@
-osm_id,lon,lat,nome,capacidade,tipo,cobert,operador,taxa,período_máximo,vigilância,logradouro,número
+osm_id,lon,lat,nome,capacidade,tipo,cobertura,operador,taxa,período_máximo,vigilância,logradouro,número
 208537789,-43.1760821,-22.9566949,,,,,,,,,,
 299617743,-43.2321268,-22.9792638,PUC-Rio,200,stands,yes,,no,,,,
 331631023,-43.1697711,-22.9549734,,15,,no,,,,,,

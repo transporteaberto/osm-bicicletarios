@@ -1,0 +1,89 @@
+{
+  "name": "osm-bicicletarios",
+  "title": "Bicicletários no OpenStreetMap",
+  "licenses": [
+    {
+      "id": "odbl",
+      "name": "Open Data Commons Open Database License (ODbL)",
+      "version": "1.0",
+      "url": "http://opendatacommons.org/licenses/odbl"
+    }
+  ],
+  "resources": [
+      {
+        "name": "data",
+        "url": "https://raw.github.com/TransporteAberto/osm-bicicletarios/master/data.csv",
+        "format": "csv",
+        "mediatype": "text/csv",
+        "schema": {
+          "fields": [
+            {
+              "id": "osm_id",
+              "description": "id do objeto no OpenStreetMap",
+              "type": "string"
+            },
+            {
+              "id": "lon",
+              "description": "longitude",
+              "type": "string"
+            },
+            {
+              "id": "lat",
+              "description": "latitude",
+              "type": "string"
+            },
+            {
+              "id": "nome",
+              "description": "nome do bicletário (se existir)",
+              "type": "string"
+            },
+            {
+              "id": "capacidade",
+              "description": "número máximo de bicicletas permitidas",
+              "type": "string"
+            },
+            {
+              "id": "tipo",
+              "description": "",
+              "type": "string"
+            },
+            {
+              "id": "cobertura",
+              "description": "se o bicicletário tem proteção contra o clima",
+              "type": "string"
+            },
+            {
+              "id": "operador",
+              "description": "organização responsável pelo bicicletário",
+              "type": "string"
+            },
+            {
+              "id": "taxa",
+              "description": "valor cobrado para uso, se aplicável",
+              "type": "string"
+            },
+            {
+              "id": "período_máximo",
+              "description": "período máximo de permanência",
+              "type": "string"
+            },
+            {
+              "id": "vigilância",
+              "description": "se existe vigilância dedicada ao bicletário",
+              "type": "string"
+            },
+            {
+              "id": "logradouro",
+              "description": "endereço do bicicletário",
+              "type": "string"
+            },
+            {
+              "id": "número",
+              "description": "número de endereço",
+              "type": "string"
+            }
+          ]
+        }
+      }
+    ]
+  }
