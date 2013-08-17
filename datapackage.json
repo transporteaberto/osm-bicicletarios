@@ -54,7 +54,7 @@
             },
             {
               "id": "operador",
-              "description": "organização responsável pelo bicicletário",
+              "description": "organização responsável pelo bicicletário (se existir)",
               "type": "string"
             },
             {
